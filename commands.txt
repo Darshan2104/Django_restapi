@@ -3,6 +3,8 @@ pip install djangorestframework
 
 django-admin startproject <nameofproject> .
 python manage.py runserver
+./manage.py makemigrations <myapp>
+
 
 python manage.py makemigrations
 python manage.py migrate
