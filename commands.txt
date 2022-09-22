@@ -1,0 +1,10 @@
+pip install django
+pip install djangorestframework
+
+django-admin startproject <nameofproject> .
+python manage.py runserver
+
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser
